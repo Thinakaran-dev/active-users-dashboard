@@ -105,7 +105,10 @@ http://localhost:8080
 
 ## 📸 Screenshots (Optional)
 
-*Add screenshots of your UI here*
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/1246d638-4c68-4a61-a118-fbfdbf851d85" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/6f0abb5e-e1fa-46ba-aa8c-5c31ae259c76" />
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/b6e51c86-49cf-4c50-ad2c-c773be1771e4" />
+
 
 ---
 
