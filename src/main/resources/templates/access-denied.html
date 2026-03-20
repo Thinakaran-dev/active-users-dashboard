@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Access Denied</title>
+
+<style>
+body {
+    margin:0;
+    font-family:Segoe UI;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#f1f5f9;
+}
+
+.popup {
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.2);
+    text-align:center;
+    animation:fadeIn 0.3s ease;
+}
+
+.popup h2 {
+    color:#ef4444;
+}
+
+.popup button {
+    margin-top:15px;
+    padding:10px 18px;
+    border:none;
+    border-radius:6px;
+    background:#3b82f6;
+    color:white;
+    cursor:pointer;
+}
+
+.popup button:hover {
+    background:#2563eb;
+}
+
+@keyframes fadeIn {
+    from {opacity:0; transform:scale(0.8);}
+    to {opacity:1; transform:scale(1);}
+}
+</style>
+</head>
+
+<body>
+
+<div class="popup">
+    <h2>🚫 Access Denied</h2>
+    <p>You are not authorized to access the Admin Panel.</p>
+
+    <button onclick="goBack()">Go to Dashboard</button>
+</div>
+
+<script>
+function goBack() {
+    window.location.href = "/dashboard";
+}
+</script>
+
+</body>
+</html>
